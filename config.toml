@@ -152,10 +152,7 @@ disqusShortname = ""
 
 # customize your available languages for your multi-lingual site
 # or delete the [Languages] blog to use the theme with only one supported language
-[Languages]
-  [Languages.en]
-    weight = 1
-  
+
 
 # don't change anything below
 [taxonomies]
