@@ -23,7 +23,7 @@ disqusShortname = ""
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
+  author = "amine abdelmoumen"
   description = "Java ,DevOps,and Software engineering in general"
   keywords = "java,DevOps,K8S,docker,jenkins,linux,python,shell scripting"
 
