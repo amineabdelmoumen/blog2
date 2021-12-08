@@ -1,0 +1,3 @@
+[submodule "themes/bilberry-hugo-theme"] 
+  path = path_to_submodule 
+  url = git://url-of-source/
