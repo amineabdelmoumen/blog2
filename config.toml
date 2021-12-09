@@ -1,4 +1,4 @@
-title = "Welcome to my blog"
+title = "My cool new Blog"
 baseURL = "https://amineabdelmoumen.github.io/blog-1/"
 theme = "bilberry-hugo-theme"
 
@@ -23,9 +23,9 @@ disqusShortname = ""
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "amine abdelmoumen"
-  description = "Java ,DevOps,and Software engineering in general"
-  keywords = "java,DevOps,K8S,docker,jenkins,linux,python,shell scripting"
+  author = "Lednerb"
+  description = "Bilberry Premium Theme for Hugo."
+  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
 
   # How many articles should be displayed at once?
   paginate = 7
@@ -39,7 +39,7 @@ disqusShortname = ""
   algolia_apiKey    = "16030625f1a4d0dd3b8aefd794fd4cf1"
   algolia_indexName = "bilberry-hugo-theme"
   # Set this option to false if you want to search within all articles in all languages at once
-  algolia_currentLanguageOnly = false
+  algolia_currentLanguageOnly = true
 
   # Enable / Disable comments on the articles via commento
   # commentoJsURL = "https://commento.lednerb.de/js/commento.js"
@@ -75,16 +75,16 @@ disqusShortname = ""
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Hello World! I'am Software Enginner trying to share what I'm learning and give back to the Community"
+    subtitle = "Hello World! This is the most epic subtitle ever."
 
     # if you want to use libravatar or gravatar for the header image
-    avatarEmail = "abdelmoumen33330@gmail.com"
+    avatarEmail = "code@lednerb.de"
 
     # set an path to the image file you want to use | overwrites avatar by email
     customImage = ""
 
     # define the icon you want to use for the overlay for the customImage or avatar.
-    overlayIcon = "arabic"
+    overlayIcon = "fa-home"
 
     # always display the top navigation (with pages and search) on non-mobile screens
     permanentTopNav = false
@@ -142,17 +142,23 @@ disqusShortname = ""
     ]
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
+    copyrightBy = "by amineabdel"
     copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
     copyrightYearOverride = "2017"
     copyrightUrl = "https://github.com/amineabdelmoumen"
-    creditsText = "my blogs"
-    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
+    creditsText = "Bilberry Hugo Theme"
+    creditsUrl = "https://github.com/amineabdelmoumen"
 
 
 # customize your available languages for your multi-lingual site
 # or delete the [Languages] blog to use the theme with only one supported language
-
+[Languages]
+  [Languages.en]
+    weight = 1
+  [Languages.de]
+    weight = 2
+    title = "Mein cooler neuer Blog"
+    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
 
 # don't change anything below
 [taxonomies]

@@ -10,5 +10,4 @@ author: ""
 ---
 
 this is first post
-![dem](/dpi.png)
-<img src="/dpi.png" />
+![de](/dpi.png)
