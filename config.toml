@@ -45,10 +45,11 @@ disqusShortname = ""
   # commentoJsURL = "https://commento.lednerb.de/js/commento.js"
 
   # Enable / Disable Giscus comments
-  giscus             = false
-  giscusJsUrl        = "https://giscus.app/client.js"
+  giscus             = true
+  giscusJsUrl        = "http://disqus.com/by/disqus_oecqzi73Ok"
   giscusRepository   = "[ENTER REPO HERE]"
-  giscusRepositoryId = "[ENTER REPO ID HERE]"
+  
+
   giscusMapping      = "pathname"
   giscusCategory     = "[ENTER CATEGORY NAME HERE]"
   giscusCategoryId   = "[ENTER CATEGORY ID HERE]"
